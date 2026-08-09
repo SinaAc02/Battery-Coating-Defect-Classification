@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# The dataset and trained weights are reproducible and should not be committed.
+data/raw/
+artifacts/
+model_output/
+
+# Selected lightweight report figures are included in the repository.
